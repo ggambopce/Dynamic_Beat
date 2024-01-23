@@ -48,6 +48,8 @@ public class DynamicBeat extends JFrame {
 			public void mouseEntered(MouseEvent e) {
 				exitButton.setIcon(exitButtonEnteredImage);
 				exitButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				buttinEnteredMusic.start();
 			}
 			@Override
 			public void mouseExited(MouseEvent e) {
@@ -56,7 +58,14 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				System.exit(0);
+				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				buttinEnteredMusic.start();
+				try {
+					Thread.sleep(1000);
+				} catch(InterruptedException ex) {
+					ex.printStackTrace();
+				}
+				System.exit(0);		
 			}
 		});
 		add(exitButton);
