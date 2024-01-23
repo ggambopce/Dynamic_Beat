@@ -157,7 +157,6 @@ public class DynamicBeat extends JFrame {
 		});
 		add(quitButton);
 		
-		leftButton.setVisible(false);
 		leftButton.setBounds(140, 310, 60, 60);
 		leftButton.setBorderPainted(false);
 		leftButton.setContentAreaFilled(false);
@@ -183,8 +182,7 @@ public class DynamicBeat extends JFrame {
 			}
 		});
 		add(leftButton);
-
-		rightButton.setVisible(false);
+		
 		rightButton.setBounds(1080, 310, 60, 60);
 		rightButton.setBorderPainted(false);
 		rightButton.setContentAreaFilled(false);
