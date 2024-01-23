@@ -48,7 +48,7 @@ public class DynamicBeat extends JFrame {
 	private Music selectedMusic;
 	private Image titleImage; 
 	private Image selectedImage;
-	private int nowSelected = 0;
+	private int nouSelected = 0;
 	
 	public DynamicBeat() {
 		setUndecorated(true);
@@ -121,7 +121,6 @@ public class DynamicBeat extends JFrame {
 				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
 				buttinEnteredMusic.start();
 				introMusic.close();
-				selectTrack(0);
 				startButton.setVisible(false);
 				quitButton.setVisible(false);
 				leftButton.setVisible(true);
