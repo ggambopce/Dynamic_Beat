@@ -70,7 +70,7 @@ public class DynamicBeat extends JFrame {
 	
 		exitButton.setBounds(1245, 0, 30, 30);
 		exitButton.setBorderPainted(false);
-		exitButton.setContentAreaFilled(false);
+		exitButton.setContentAreaFilled(false); 
 		exitButton.setFocusPainted(false);
 		exitButton.addMouseListener(new MouseAdapter() {
 			@Override
