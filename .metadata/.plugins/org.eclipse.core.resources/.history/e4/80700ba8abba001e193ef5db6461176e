@@ -2,11 +2,8 @@ package dynamic_beat_10;
 
 import java.awt.Color;
 import java.awt.Cursor;
-import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Image;
-import java.awt.RenderingHints;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
@@ -335,11 +332,11 @@ public class DynamicBeat extends JFrame {
 	public void paint(Graphics g) {
 		screenImage = createImage(Main.SCREEN_WHIDTH, Main.SCREEN_HEIGHT);
 		screenGraphic = screenImage.getGraphics();
-		screenDraw((Graphics2D)screenGraphic);
+		screenDraw(screenGraphic);
 		g.drawImage(screenImage, 0, 0, null);
 	}
 	
-	public void screenDraw(Graphics2D g) {
+	public void screenDraw(Graphics g) {
 		g.drawImage(background, 0, 0, null);
 		if(isMainScreen) {
 			g.drawImage(selectedImage, 340, 100, null);
@@ -373,23 +370,6 @@ public class DynamicBeat extends JFrame {
 			g.drawImage(noteBasicImage, 744, 325, null);
 			g.drawImage(noteBasicImage, 848, 305, null);
 			g.drawImage(noteBasicImage, 952, 305, null);
-			g.setColor(Color.white);
-			g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
-			g.setFont(new Font("Arial", Font.BOLD, 30));
-			g.drawString("Jun Suk - Higher", 20, 702);
-			g.drawString("Easy", 1190, 702);
-			g.setFont(new Font("Arial", Font.BOLD, 30));
-			g.setColor(Color.DARK_GRAY);
-			g.drawString("S", 270, 609);
-			g.drawString("D", 374, 609);
-			g.drawString("F", 478, 609);
-			g.drawString("Space Bar", 580, 609);
-			g.drawString("J", 784, 609);
-			g.drawString("K", 889, 609);
-			g.drawString("L", 993, 609);
-			g.setFont(new Font("Elephant", Font.BOLD, 30));
-			g.drawString("000000", 565, 702);
-			
 		}
 		paintComponents(g);
 		this.repaint();
