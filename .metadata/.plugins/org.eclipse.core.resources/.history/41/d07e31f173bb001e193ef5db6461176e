@@ -67,11 +67,6 @@ public class DynamicBeat extends JFrame {
 	public static Game game;
 	
 	public DynamicBeat() {
-		
-		trackList.add(new Track("Again Title Image.png", "Again Start Image.png", "Again Game Image.png", "Again Selected.mp3", "Again.mp3", "Again"));
-		trackList.add(new Track("Higher Title Image.png", "Higher Start Image.png", "Higher Game Image.png", "Higher Selected.mp3", "Higher.mp3", "Higher"));
-		trackList.add(new Track("The Christmas Title Image.png", "The Christmas Start Image.png", "The Christmas Game Image.png", "The Christmas Selected.mp3", "The Christmas.mp3", "The Christmas"));
-		
 		setUndecorated(true);
 		setTitle("Dynamic Beat");
 		setSize(Main.SCREEN_WHIDTH, Main.SCREEN_HEIGHT);
@@ -86,6 +81,10 @@ public class DynamicBeat extends JFrame {
 	
 		introMusic.start();
 		
+		trackList.add(new Track("Again Title Image.png", "Again Start Image.png", "Again Game Image.png", "Again Selected.mp3", "Again.mp3", "Again"));
+		trackList.add(new Track("Higher Title Image.png", "Higher Start Image.png", "Higher Game Image.png", "Higher Selected.mp3", "Higher.mp3", "Higher"));
+		trackList.add(new Track("The Christmas Title Image.png", "The Christmas Start Image.png", "The Christmas Game Image.png", "The Christmas Selected.mp3", "The Christmas.mp3", "The Christmas"));
+	
 		exitButton.setBounds(1245, 0, 30, 30);
 		exitButton.setBorderPainted(false);
 		exitButton.setContentAreaFilled(false);
@@ -351,11 +350,6 @@ public class DynamicBeat extends JFrame {
 			
 		}
 		paintComponents(g);
-		try {
-			Thread.sleep(5);
-		} catch (Exception e) {
-			
-		}
 		this.repaint();
 	}
 	
@@ -395,9 +389,9 @@ public class DynamicBeat extends JFrame {
 		background = new ImageIcon(Main.class.getResource("../images/" + trackList.get(nowSelected).getGameImage())).getImage();
 		backButton.setVisible(true);
 		isGameScreen = true;
+		setFocusable(true);
 		game = new Game(trackList.get(nowSelected).getTitleName(), difficulty, trackList.get(nowSelected).getGameMusic());
 		game.start();
-		setFocusable(true);
 	}
 	
 	public void backMain() {
