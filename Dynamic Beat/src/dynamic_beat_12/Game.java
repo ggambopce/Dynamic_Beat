@@ -1,4 +1,4 @@
-package dynamic_beat_11;
+package dynamic_beat_12;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -25,7 +25,18 @@ public class Game extends Thread {
 	private Image noteRouteKImage = new ImageIcon(Main.class.getResource("../images/noteRoute.png")).getImage();
 	private Image noteRouteLImage = new ImageIcon(Main.class.getResource("../images/noteRoute.png")).getImage();
 	
+	private String titleName;
+	private String difficulty;
+	private String musicTitle;
+	private Music gameMusic;
 	
+	public Game(String titleName, String difficulty, String musicTitle) {
+		this.titleName = titleName;
+		this.difficulty = difficulty;
+		this.musicTitle = musicTitle;
+		gameMusic = new Music(this.musicTitle, false);
+		gameMusic.start();
+	}
 	
 	
 	public void screenDraw(Graphics2D g) {
@@ -58,8 +69,8 @@ public class Game extends Thread {
 		g.setColor(Color.white);
 		g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 		g.setFont(new Font("Arial", Font.BOLD, 30));
-		g.drawString("Jun Suk - Higher", 20, 702);
-		g.drawString("Easy", 1190, 702);
+		g.drawString(titleName, 20, 702);
+		g.drawString(difficulty, 1190, 702);
 		g.setFont(new Font("Arial", Font.BOLD, 30));
 		g.setColor(Color.DARK_GRAY);
 		g.drawString("S", 270, 609);
@@ -71,6 +82,7 @@ public class Game extends Thread {
 		g.drawString("L", 993, 609);
 		g.setFont(new Font("Elephant", Font.BOLD, 30));
 		g.drawString("000000", 565, 702);
+		g.drawString(titleName, 20, 702);
 	}
 	
 	public void pressS() {
@@ -135,5 +147,10 @@ public class Game extends Thread {
 	@Override
 	public void run() {
 		
+	}
+	
+	public void close() {
+		gameMusic.close();
+		this.interrupt();
 	}
 }
