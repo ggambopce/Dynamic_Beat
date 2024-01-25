@@ -75,7 +75,6 @@ public class Game extends Thread {
 	
 	public void pressS() {
 		noteRouteSImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseS() {
@@ -83,7 +82,6 @@ public class Game extends Thread {
 	}
 	public void pressD() {
 		noteRouteDImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseD() {
@@ -91,7 +89,6 @@ public class Game extends Thread {
 	}
 	public void pressF() {
 		noteRouteFImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseF() {
@@ -100,7 +97,6 @@ public class Game extends Thread {
 	public void pressSpace() {
 		noteRouteSpace1Image = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
 		noteRouteSpace2Image = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumBig1.mp3", false).start();
 	}
 	
 	public void releaseSpace() {
@@ -109,7 +105,6 @@ public class Game extends Thread {
 	}
 	public void pressJ() {
 		noteRouteJImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseJ() {
@@ -117,7 +112,6 @@ public class Game extends Thread {
 	}
 	public void pressK() {
 		noteRouteKImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseK() {
@@ -125,7 +119,6 @@ public class Game extends Thread {
 	}
 	public void pressL() {
 		noteRouteLImage = new ImageIcon(Main.class.getResource("../images/noteRoutePressed.png")).getImage();
-		new Music("drumSmall1.mp3", false).start();
 	}
 	
 	public void releaseL() {
