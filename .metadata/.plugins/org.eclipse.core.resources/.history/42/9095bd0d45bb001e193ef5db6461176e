@@ -154,7 +154,7 @@ public class Game extends Thread {
 	}
 	
 	public void dropNotes(String titleName) {
-		Note note = new Note(228, "short");
+		Note note = new Note(228, 0, "short");
 		note.start();
 		noteList.add(note);
 		

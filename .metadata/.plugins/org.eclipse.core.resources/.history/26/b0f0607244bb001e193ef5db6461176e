@@ -8,11 +8,12 @@ import javax.swing.ImageIcon;
 public class Note extends Thread {
 	
 	private Image noteBasicImage = new ImageIcon(Main.class.getResource("../images/noteBasic")).getImage();
-	private int x, y = 580 - 1000 / Main.SLEEP_TIME * Main.NOTE_SPEED;;
+	private int x, y;
 	private String noteType;
 	
-	public Note(int x, String noteType) {
-		this.x = x; 
+	public Note(int x, int y, String noteType) {
+		this.x = x;
+		this.y = y;
 		this.noteType = noteType;
 	}
 	
