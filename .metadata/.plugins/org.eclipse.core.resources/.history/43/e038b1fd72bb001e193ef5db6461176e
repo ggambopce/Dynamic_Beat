@@ -153,25 +153,11 @@ public class Game extends Thread {
 	}
 	
 	public void dropNotes() {
-		Beat[] beats = null;
-		if(titleName.equals("Again")) {
-			int startTime = 1000;
-			beats = new Beat[] {
-					new Beat(startTime, "Space"),
-			};	
-		} 
-		else if(titleName.equals("Higher")) {
-			int startTime = 1000;
-			beats = new Beat[] {
-					new Beat(startTime, "Space"),
-			};
-		}
-		else if(titleName.equals("The Christmas")) {
-			int startTime = 1000;
-			beats = new Beat[] {
-					new Beat(startTime, "Space"),
-			};
-		}
+		Beat[] beats = {
+				new Beat(1000, "S"),
+				new Beat(1000, "D"),
+				new Beat(1000, "F")
+		};
 		int i = 0;
 		while(true) {
 			if(beats[i].getTime() <= gameMusic.getTime()) {
