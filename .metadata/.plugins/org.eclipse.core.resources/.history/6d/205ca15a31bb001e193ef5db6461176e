@@ -389,7 +389,6 @@ public class DynamicBeat extends JFrame {
 		background = new ImageIcon(Main.class.getResource("../images/" + trackList.get(nowSelected).getGameImage())).getImage();
 		backButton.setVisible(true);
 		isGameScreen = true;
-		setFocusable(true);
 	}
 	
 	public void backMain() {

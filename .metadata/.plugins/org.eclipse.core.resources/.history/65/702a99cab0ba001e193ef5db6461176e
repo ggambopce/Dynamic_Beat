@@ -64,7 +64,7 @@ public class DynamicBeat extends JFrame {
 	private Music introMusic = new Music("introMusic.mp3", true);
 	private int nowSelected = 0;
 	
-	public static Game game = new Game();
+	Game game = new Game();
 	
 	public DynamicBeat() {
 		setUndecorated(true);
@@ -76,8 +76,6 @@ public class DynamicBeat extends JFrame {
 		setVisible(true);
 		setBackground(new Color(0, 0, 0, 0));
 		setLayout(null);
-		
-		addKeyListener(new KeyListener());
 	
 		introMusic.start();
 		
@@ -389,7 +387,6 @@ public class DynamicBeat extends JFrame {
 		background = new ImageIcon(Main.class.getResource("../images/" + trackList.get(nowSelected).getGameImage())).getImage();
 		backButton.setVisible(true);
 		isGameScreen = true;
-		setFocusable(true);
 	}
 	
 	public void backMain() {
