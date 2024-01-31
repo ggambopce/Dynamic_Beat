@@ -29,8 +29,8 @@ public class DynamicBeat extends JFrame {
 	private ImageIcon rightButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/rightButtonEntered.png"));
 	private ImageIcon rightButtonBasicImage = new ImageIcon(Main.class.getResource("../images/rightButtonBasic.png"));
 	
-	private Image titleImage = new ImageIcon(Main.class.getResource("../Again Title Image.png")).getImage();
-	private Image selectedImage = new ImageIcon(Main.class.getResource("../Again Start Image.png")).getImage();
+	private Image titleImage = new ImageIcon(Main.class.getResource("../images/Again Title Image.png")).getImage();
+	private Image selectedImage = new ImageIcon(Main.class.getResource("../images/Again Start Image.png")).getImage();
 	private Image background = new ImageIcon(Main.class.getResource("../images/introBackground(Title).jpg")).getImage();
     private JLabel menuBar = new JLabel(new ImageIcon(Main.class.getResource("../images/menuBar.png")));
 	
