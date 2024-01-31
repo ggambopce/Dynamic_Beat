@@ -13,6 +13,7 @@
 		</list>
 		<list key="replacehistory">
 			<item value="background"/>
+			<item value="Background"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

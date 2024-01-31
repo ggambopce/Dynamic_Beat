@@ -104,15 +104,6 @@ public class DynamicBeat extends JFrame {
 		});
 		add(startButton);
 		
-		menuBar.setBounds(0, 0, 1280, 30);
-		menuBar.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mousePressed(MouseEvent e) {
-				mouseX = e.getX();
-				mouseY = e.getY();
-			}
-		});
-		
 		quitButton.setBounds(1245, 0, 30, 30);
 		quitButton.setBorderPainted(false);
 		quitButton.setContentAreaFilled(false);
