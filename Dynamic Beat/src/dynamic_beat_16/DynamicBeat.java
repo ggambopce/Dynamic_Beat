@@ -105,7 +105,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				try {
 					Thread.sleep(1000);
@@ -136,7 +136,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				enterMain();
 				
@@ -163,7 +163,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				try {
 					Thread.sleep(1000);
@@ -195,7 +195,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				// 왼쪽 버튼 이벤트 
 			}
@@ -222,7 +222,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				// 오른쪽 버튼 이벤트 
 			}
@@ -249,7 +249,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				gameStart(nowSelected, "Easy");
 			}
@@ -276,7 +276,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				gameStart(nowSelected, "Hard");
 			}
@@ -303,7 +303,7 @@ public class DynamicBeat extends JFrame {
 			}
 			@Override
 			public void mousePressed(MouseEvent e) {
-				Music buttinEnteredMusic = new Music("buttonEnteredMusic.mp3", false);
+				Music buttinEnteredMusic = new Music("buttonPressedMusic.mp3", false);
 				buttinEnteredMusic.start();
 				backMain();
 			}
