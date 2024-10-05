@@ -1,5 +1,5 @@
 # Jaca 리듬 게임 - 코드를 따라하면서 배우기
-<img width="700" alt="RED & BLUE" src="[https://github.com/user-attachments/assets/f05fd1d0-f838-4ce5-b53d-1eb53e977515](https://github.com/user-attachments/assets/95b3e73c-6ee7-4d3c-b5c1-9a5cf50b88f8)">
+<img width="705" alt="시작화면" src="https://github.com/user-attachments/assets/95b3e73c-6ee7-4d3c-b5c1-9a5cf50b88f8">
 <br/>
 
 ## 📽️ 학습 내용
@@ -18,10 +18,10 @@
 9. **JDBC를 사용하여 로그인하고, 로그인 후 해당 사용자로 음악 게임 종료 시 점수를 저장할 수 있도록 함**
 10. **Thread를 사용하여 각 기능들을 Thread로 통해서 개별적으로 구현 및 실행**
 
-곡선택화면
+**곡선택화면**
 <img width="700" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
 <br/>
-게임화면
+**게임화면**
 <img width="700" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
 <br/>
 
