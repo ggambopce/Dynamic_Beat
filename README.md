@@ -1,4 +1,4 @@
-# Jaca 리듬 게임 - 코드를 따라하면서 배우기
+# Java 리듬 게임 - 코드를 따라하면서 배우기
 <img width="700" alt="시작화면" src="https://github.com/user-attachments/assets/95b3e73c-6ee7-4d3c-b5c1-9a5cf50b88f8">
 <br/>
 
@@ -17,13 +17,18 @@
 8. **JAR 패키징 시에도 동작 가능하도록 InputStream 활용**
 9. **JDBC를 사용하여 로그인하고, 로그인 후 해당 사용자로 음악 게임 종료 시 점수를 저장할 수 있도록 함**
 10. **Thread를 사용하여 각 기능들을 Thread로 통해서 개별적으로 구현 및 실행**
+    
 
-
-<h3 align="center"> 곡선택화면 </h3>
-<img width="700" align="center" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
 <br/>
-<h3 align="center"> 게임화면 </h3>
-<img width="700" align="center" alt="게임화면" src="https://github.com/user-attachments/assets/8d9b4d4b-34b5-47a1-aac8-91a9177cd806">
+
+**곡선택화면**
+<br/>
+<img width="700" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
+<br/>
+
+**게임화면** 
+<br/>
+<img width="700" alt="게임화면" src="https://github.com/user-attachments/assets/8d9b4d4b-34b5-47a1-aac8-91a9177cd806">
 <br/>
 
 ## 🖨️ 기술 스택
@@ -48,4 +53,6 @@
 <img src="https://img.shields.io/badge/GitHub-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
 </p>
 
-<br/><br/>
+<br/>
+
+나동빈님의 유튜브 강의를 보고 학습하였습니다.
