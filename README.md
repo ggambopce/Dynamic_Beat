@@ -1,5 +1,5 @@
 # Jaca 리듬 게임 - 코드를 따라하면서 배우기
-<img width="705" alt="시작화면" src="https://github.com/user-attachments/assets/95b3e73c-6ee7-4d3c-b5c1-9a5cf50b88f8">
+<img width="700" alt="시작화면" src="https://github.com/user-attachments/assets/95b3e73c-6ee7-4d3c-b5c1-9a5cf50b88f8">
 <br/>
 
 ## 📽️ 학습 내용
@@ -20,10 +20,10 @@
 
 
 <h3 align="center"> 곡선택화면 </h3>
-<img width="700" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
+<img width="700" align="center" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
 <br/>
 <h3 align="center"> 게임화면 </h3>
-<img width="700" alt="곡선택화면" src="https://github.com/user-attachments/assets/f1b8ac27-2053-4af0-9c83-643392f2074d">
+<img width="700" align="center" alt="게임화면" src="https://github.com/user-attachments/assets/8d9b4d4b-34b5-47a1-aac8-91a9177cd806">
 <br/>
 
 ## 🖨️ 기술 스택
@@ -49,9 +49,3 @@
 </p>
 
 <br/><br/>
-
-
-
-| rename   | 디렉터리 이름변경 및 폴더 이동                                 |
-| fix      | 버그수정                                                        |
-
